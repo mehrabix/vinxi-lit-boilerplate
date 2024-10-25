@@ -1,4 +1,4 @@
-import { LitElement, css, CSSResult } from 'lit';
+import { CSSResult, LitElement } from 'lit';
 // @ts-ignore
 import { TWStyles } from '../../temp/tw';
 
