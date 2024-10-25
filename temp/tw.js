@@ -568,6 +568,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }

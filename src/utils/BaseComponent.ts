@@ -1,8 +1,16 @@
-import { LitElement, css } from 'lit';
+import { LitElement, css, CSSResult } from 'lit';
 // @ts-ignore
 import { TWStyles } from '../../temp/tw';
 
 export class BaseComponent extends LitElement {
-    static styles = [css``, TWStyles];
+    static get styles() {
+        return [
+            ...this.customStyles(),
+            TWStyles,
+        ];
+    }
 
+    static customStyles(): CSSResult[] {
+        return [];
+    }
 }
