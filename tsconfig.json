@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "baseUrl": ".",
+  },
+  "include": [
+      "src/**/*.ts",
+      "temp/**/*.js",
+      "temp/**/*.d.ts"
+  ]
+}
