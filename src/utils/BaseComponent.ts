@@ -4,4 +4,5 @@ import { TWStyles } from '../../temp/tw';
 
 export class BaseComponent extends LitElement {
     static styles = [css``, TWStyles];
+
 }
