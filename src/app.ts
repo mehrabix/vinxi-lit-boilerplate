@@ -4,7 +4,7 @@ import { html } from 'lit';
 import '../temp/tw.css';
 import './components/HelloWorld';
 
-@customElement('my-app')
+@customElement('app-root')
 class App extends BaseComponent {
     render() {
         return html`
