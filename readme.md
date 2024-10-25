@@ -27,8 +27,8 @@ This boilerplate provides a solid foundation for building web applications using
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/vinxi-lit-app.git
-   cd vinxi-lit-app
+   git clone https://github.com/mehrabix/vinxi-lit-tailwind-boilerplate
+   cd vinxi-lit-tailwind-boilerplate
    ```
 
 2. Install the dependencies:
